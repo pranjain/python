@@ -1,0 +1,105 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[1]:
+
+
+import numpy as np
+
+
+# In[2]:
+
+
+sampleArray = np.array([[100 ,200, 300], [400, 500, 600], [700, 800, 900]])
+
+
+# In[5]:
+
+
+print(sampleArray)
+
+
+# In[6]:
+
+
+sampleArray[:,2]
+
+
+# In[9]:
+
+
+arr1=[1,2,3,4,5]
+arr2=[6,7,8,9,10]
+
+
+# In[15]:
+
+
+res=np.concatenate((arr1, arr2), axis=0)
+
+
+# In[16]:
+
+
+print(res)
+
+
+# In[17]:
+
+
+arr =[[1,2,3],[4,5,6],[7,8,9]]
+
+
+# In[18]:
+
+
+np.mean(arr)
+
+
+# In[19]:
+
+
+np.var(arr)
+
+
+# In[20]:
+
+
+np.std(arr)
+
+
+# In[21]:
+
+
+np.floor(arr1)
+
+
+# In[25]:
+
+
+np.ceil(arr1)
+
+
+# In[26]:
+
+
+np.rint(arr1)
+
+
+# In[29]:
+
+
+a=np.arange(0,20)
+
+
+# In[30]:
+
+
+np.flip(a)
+
+
+# In[31]:
+
+
+np.linspace(0,5,10)
+
